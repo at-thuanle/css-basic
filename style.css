@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding-left: 180px;
+  padding-right: 180px;
+  /*   width: 100%;
+  height: 100%; */
+  display: flex;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #868e92;
+  display: inline-block;
+}
+
+.father {
+  display: inline-block;
+}
+
+.one {
+  width: 327px;
+  height: 217px;
+}
+
+.main-header {
+  width: 100%;
+  height: 150%;
+}
+
+.list-container {
+  width: 295px;
+  height: 325px;
+  border-radius: 1px;
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  margin: 12.5px;
+}
+
+.image-item {
+  width: 296px;
+  /* 	object-fit:cover;
+	object-position:50% 50%; */
+}
+
+.button {
+  width: 15px;
+  height: 15px;
+  background-color: #62c6f8;
+  position: relative;
+}
+
+.fa-arrow-right {
+  color: #ffffff;
+  font-size: 7px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.conner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.item-title {
+  font-size: 16px;
+  line-height: 30px;
+  color: #282828;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+.item-content {
+  width: 248px;
+  height: 94px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #282828;
+  font-family: "Arial";
+}
+
+.description-item {
+  padding: 20px;
+}
+
+.left {
+  width: 23.79%;
+  /* display: inline-block; */
+}
+
+.right {
+  width: calc(100% - 23.79%);
+  /* height: auto; */
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+footer {
+  background-color: #62c6f8;
+}
+
+.info-footer {
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "UTM Avo Bold";
+  font-weight: bold;
+  margin-right: 200px;
+}
+
+.white {
+  background-color: white;
+  margin-bottom: 4px;
+}
+
+.horizonal-line {
+  display: inline-block;
+  width: 100%;
+  /* margin: 15px; */
+  border-bottom: 1px solid white;
+}
+
+.item-list-info-footer {
+	margin-top: 25px;
+	font-size: 15px;
+}
+
+.align-right{
+	/* margin: 10px; */
+	/* display: inline-block; */
+}
